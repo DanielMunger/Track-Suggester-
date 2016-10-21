@@ -47,36 +47,36 @@ var calculate = function(answer1, answer2, answer3, answer4) {
 $(document).ready(function() {
 
   ruby = function() {
-    $("#ruby").show();
-    $("#css, #c-sharp, #java-android, #other").hide();
+    $("#ruby").slideToggle();
+    $("#css, #c-sharp, #java-android, #other, .home-page").hide();
   }
   css = function() {
-    $("#css").show();
-    $("#ruby, #c-sharp, #java-android, #other").hide();
+    $("#css").slideToggle();
+    $("#ruby, #c-sharp, #java-android, #other, .home-page").hide();
   }
   csharp = function() {
-    $("#c-sharp").show();
-    $("#css, #ruby, #java-android, #other").hide();
+    $("#c-sharp").slideToggle();
+    $("#css, #ruby, #java-android, #other, home-page").hide();
   }
   javandroid = function() {
-    $("#java-android").show();
-    $("#css, #ruby, #c-sharp, #other").hide();
+    $("#java-android").slideToggle();
+    $("#css, #ruby, #c-sharp, #other, .home-page").hide();
   }
   combined1 = function() {
-    $("#java-android, #c-sharp").show();
-    $("#css, #ruby, #other").hide();
+    $("#java-android, #c-sharp").slideToggle();
+    $("#css, #ruby, #other, .home-page").hide();
   }
   combined2 = function() {
-    $("#java-android, #ruby").show();
-    $("#css, #csharp, #other").hide();
+    $("#java-android, #ruby").slideToggle();
+    $("#css, #csharp, #other, .home-page").hide();
   }
   combined3 = function() {
-    $("#css, #ruby").show();
-    $("#ava-android, #csharp, #other").hide();
+    $("#css, #ruby").slideToggle();
+    $("#ava-android, #csharp, #other, .home-page").hide();
   }
   other = function() {
-    $("#other").show();
-    $("#css, #ruby, #c-sharp, #java-android").hide();
+    $("#other").slideToggle();
+    $("#css, #ruby, #c-sharp, #java-android, .home-page").hide();
   }
   $("#submit").click(function() {
     answer1 = $("#q1").val();
@@ -86,5 +86,8 @@ $(document).ready(function() {
     answer5 = $("#q5").val();
     calculate(answer1, answer2, answer3, answer4, answer5);
   });
-
+  $(".back").click(function() {
+    $(".home-page").slideToggle();
+    $("#css, #ruby, #c-sharp, #java-android, #other").hide();
+  });
 });

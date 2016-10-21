@@ -15,6 +15,9 @@
   background-color: rgba(0, 0, 0, .85);
   color: #d6d7d8;
 }
+.home-page{
+  
+}
 #ruby, #css, #c-sharp, #java-android, #other {
   display: none;
 }
