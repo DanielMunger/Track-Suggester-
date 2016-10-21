@@ -1,15 +1,31 @@
 .header{
-  background-color: blue;
+  background-color: rgba(0, 0, 0, .85);
   text-align: center;
   padding: 15px;
   border-radius: 15px;
+  color: #d6d7d8;
 }
 .well#description {
   width: 40%;
+  background-color: rgba(0, 0, 0, .85);
+  color: #d6d7d8;
+  margin: 30px;
 }
-#ruby {
+.well#options{
+  background-color: rgba(0, 0, 0, .85);
+  color: #d6d7d8;
+}
+#ruby, #css, #c-sharp, #java-android, #other {
   display: none;
 }
-#css, #c-sharp, #java-android, #other{
-  display: none;
+body {
+  background-image: url(https://2.bp.blogspot.com/-3NoAcKwupaM/VslLIkrPpuI/AAAAAAAAKfE/ZZ3rzR5npVE/s1600/ProgrammingLanguage1.jpg);
+  background-size: cover;
+}
+#submit{
+  margin: 15px;
+  float: right;
+}
+.move-down{
+  margin-bottom: 37px;
 }

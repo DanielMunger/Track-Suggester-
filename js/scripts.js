@@ -24,8 +24,20 @@ var calculate = function(answer1, answer2, answer3, answer4) {
   {
     javandroid();
   }
+  else if (answer1 === "software" && answer2 === "problem-solving" && answer3 === "fun-enviornment" && answer4 === "logic" && answer5 === "cross-platform")
+  {
+    combined1();
+  }
+  else if (answer1 === "company" && answer2 === "problem-solving" && answer3 === "fun-enviornment" && answer4 === "logic")
+  {
+    combined2();
+  }
+  else if (answer1 === "company" && answer2 === "creative" && answer3 === "fun-enviornment" && answer4 === "logic")
+  {
+    combined3()
+  }
   else {
-
+    other();
   }
 }
 
@@ -50,9 +62,17 @@ $(document).ready(function() {
     $("#java-android").show();
     $("#css, #ruby, #c-sharp, #other").hide();
   }
-  option = function() {
-    $("#java-android, #c-sharp ").show();
+  combined1 = function() {
+    $("#java-android, #c-sharp").show();
     $("#css, #ruby, #other").hide();
+  }
+  combined2 = function() {
+    $("#java-android, #ruby").show();
+    $("#css, #csharp, #other").hide();
+  }
+  combined3 = function() {
+    $("#css, #ruby").show();
+    $("#ava-android, #csharp, #other").hide();
   }
   other = function() {
     $("#other").show();
