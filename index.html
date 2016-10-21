@@ -3,7 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.3.js"></script>
+    <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
     <title>Epicodus Track Suggestor</title>
@@ -20,7 +20,7 @@
       </div>
       <div class="well options">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-4">
             <h3>What would you like to do as a Developer?</h3>
             <select class="form-control" id="q1">
               <option>Please Select</option>
@@ -29,7 +29,7 @@
               <option value="software">Software Development</option>
             </select>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <h3>Are you...</h3>
             <select class="form-control" id="q2">
               <option>Please Select</option>
@@ -38,7 +38,7 @@
               <option value="problem-solving">Interested in problem solving?</option>
             </select>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <h3>Where would you like to work?</h3>
             <select class="form-control" id="q3">
               <option>Please Select</option>
@@ -47,7 +47,9 @@
               <option value="fun-enviornment">A small, fun enviornment</option>
             </select>
           </div>
-          <div class="col-md-3">
+        </div>
+        <div class="row">
+          <div class="col-md-6">
             <h3>What do you find more interesting?</h3>
             <select class="form-control" id="q4">
               <option>Please Select</option>
@@ -55,10 +57,34 @@
               <option value="logic">How things work</option>
             </select>
           </div>
+          <div class="col-md-6">
+            <h3>What platform would you like to work with?</h3>
+            <select class="form-control" id="q5">
+              <option>Please Select</option>
+              <option value="mobile">Mobile</option>
+              <option value="mac">Mac</option>
+              <option value="windows">Windows</option>
+              <option value="cross-platform">Mac & Windows</option>
+            </select>
+          </div>
           <button type="submit" class="btn btn-info" id="submit">Submit!</button>
         </div>
       </div>
-
+      <div class="well" id="ruby">
+        <p>Ruby/Rails</p>
+      </div>
+      <div class="well" id="css">
+        <p>CSS/Design</p>
+      </div>
+      <div class="well" id="c-sharp">
+        <p>C#/.NET</p>
+      </div>
+      <div class="well" id="java-android">
+        <p>Java/Android</p>
+      </div>
+      <div class="well" id="other">
+        <p>Anyone you like!</p>
+      </div>
     </div>
   </body>
 </html>

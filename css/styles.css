@@ -7,3 +7,9 @@
 .well#description {
   width: 40%;
 }
+#ruby {
+  display: none;
+}
+#css, #c-sharp, #java-android, #other{
+  display: none;
+}
