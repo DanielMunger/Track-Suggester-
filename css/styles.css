@@ -5,10 +5,8 @@
   border-radius: 5px;
   border: none;
   color: #d6d7d8;
-
 }
 h1{
-
   text-decoration: underline;
   font-size: 3em;
 }
@@ -26,9 +24,6 @@ h1{
   width: 80%;
   border-radius: 7px;
   border: none;
-}
-.home-page{
-
 }
 #ruby, #css, #c-sharp, #java-android, #other {
   margin: 30px;

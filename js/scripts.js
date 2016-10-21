@@ -44,6 +44,7 @@ var calculate = function(answer1, answer2, answer3, answer4) {
 
 
 // Front-End Jquery
+
 $(document).ready(function() {
 
   ruby = function() {
@@ -56,7 +57,7 @@ $(document).ready(function() {
   }
   csharp = function() {
     $("#c-sharp").slideToggle();
-    $("#css, #ruby, #java-android, #other, home-page").hide();
+    $("#css, #ruby, #java-android, #other, .home-page").hide();
   }
   javandroid = function() {
     $("#java-android").slideToggle();
