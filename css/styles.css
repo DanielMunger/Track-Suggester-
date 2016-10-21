@@ -2,8 +2,14 @@
   background-color: rgba(0, 0, 0, .85);
   text-align: center;
   padding: 15px;
-  border-radius: 15px;
+  border-radius: 5px;
   color: #d6d7d8;
+
+}
+h1{
+
+  text-decoration: underline;
+  font-size: 3em;
 }
 .well#description {
   width: 40%;
@@ -14,16 +20,19 @@
 .well#options{
   background-color: rgba(0, 0, 0, .85);
   color: #d6d7d8;
+  width: 80%;
 }
 .home-page{
-  
+
 }
 #ruby, #css, #c-sharp, #java-android, #other {
+  margin: 30px;
   display: none;
 }
 body {
   background-image: url(https://2.bp.blogspot.com/-3NoAcKwupaM/VslLIkrPpuI/AAAAAAAAKfE/ZZ3rzR5npVE/s1600/ProgrammingLanguage1.jpg);
-  background-size: cover;
+  background-size: fixed;
+  font-family: serif;
 }
 #submit{
   margin: 15px;
