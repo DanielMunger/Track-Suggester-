@@ -3,6 +3,7 @@
   text-align: center;
   padding: 15px;
   border-radius: 5px;
+  border: none;
   color: #d6d7d8;
 
 }
@@ -16,11 +17,15 @@ h1{
   background-color: rgba(0, 0, 0, .85);
   color: #d6d7d8;
   margin: 30px;
+  border-radius: 7px;
+  border: none;
 }
 .well#options{
   background-color: rgba(0, 0, 0, .85);
   color: #d6d7d8;
   width: 80%;
+  border-radius: 7px;
+  border: none;
 }
 .home-page{
 
